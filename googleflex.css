@@ -1,0 +1,138 @@
+body { 
+  width: 100vw;
+}
+
+header {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+text-indent: 10px ;
+text-decoration: none;
+/* float:inline-end */
+/* padding-block-end: 1em; */
+}
+
+header a {
+color: #000000;
+/* text-decoration:none */
+/* padding: content; */
+}
+
+header img {
+  height: 20px;
+}
+
+.dp {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  /* text-align: center; */
+  /* position: centre; */
+}
+
+.logo {
+  height: 90px;
+  align-items: center;
+}
+
+.search {
+  width: 37vw;
+  height: 38px;
+  border-radius: 20px;
+  border: 1px solid rgb(224, 220, 220);
+  outline: none;
+  padding-left: 20px;
+}
+
+.input {
+display: flex;
+justify-content: space-between;
+padding-top: 1em;
+padding-left: 1em;
+margin-top: 1em;
+margin-left: 10px;
+/* position: absolute; */
+/* width: 30%; */
+}
+
+.search-icon {
+  height: 20px;
+  position: relative;
+  left: 40px;
+  padding-top: 9px;
+}
+
+.icon {
+  height: 20px;
+  position: relative;
+  right: 40px;
+  padding-top: 9px;
+}
+
+.button button {
+  border: none;
+  color: #444;
+  margin: 1em;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.end-note {
+  color: blue;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;   /* padding: 1em; */
+    background-color: rgb(216, 209, 209);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+  /* } */
+}
+
+  
+
+.top {
+text-align: left;
+padding-left: 40px;
+border-bottom: solid 1px #444;
+/* margin-bottom: 1em; */
+/* padding: 1em; */
+/* max-height: 5px; */
+}
+
+.bottom {
+display: flex;
+justify-content: space-between;
+/* margin-top: 1em; */
+/* background-color: rgb(209, 202, 202); */
+/* padding: 1em; */
+/* text-indent: ; */
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  text-indent: 20px;
+}
+
+.mid {
+  text-indent: 10px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  text-indent: 20px;
+}
